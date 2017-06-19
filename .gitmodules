@@ -1,0 +1,12 @@
+[submodule "naumanni-server"]
+	path = naumanni-server
+	url = https://github.com/naumanni/naumanni-server
+[submodule "naumanni"]
+	path = naumanni
+	url = https://github.com/naumanni/naumanni.git
+[submodule "plugins/naumanni-ogp"]
+	path = plugins/naumanni-ogp
+	url = git@github.com:naumanni/naumanni-ogp.git
+[submodule "plugins/naumanni-spamfilter"]
+	path = plugins/naumanni-spamfilter
+	url = git@github.com:naumanni/naumanni-spamfilter.git

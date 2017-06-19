@@ -1,0 +1,8 @@
+.storybook
+coverage
+node_modules
+raw
+.DS_Store
+*.pyc
+.git
+__pycache__
