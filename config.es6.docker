@@ -1,0 +1,45 @@
+/**
+ * With this file, you can change the behavior of Naumanni.
+ * You can set up the screen the user first sees and guide user to your own instance.
+ */
+
+export default {
+  // Set If you have your Mastodon instance. The new registration button will be displayed in the Welcome dialog.
+  PROXY_ENABLED: true,
+
+  SKS_SERVER: 'https://naumanni.com',
+
+  WELCOME_DIALOG: {
+    // CSS of the welcome dialog
+    dialogStyle: {
+      background: '#F0F3F5',
+    },
+
+    // content of the welcome dialog
+    html: `\
+<style type="text/css">
+  .welcome-note {
+    padding: 8px;
+    min-height: 256px;
+  }
+  .welcome-note .logo {
+    display: block;
+    width: 256px;
+    float: right;
+  }
+  .welcome-note h3 {
+    color: #066399;
+    margin: 0 0 1ex;
+  }
+</style>
+
+<img class="logo" src="/static/images/naumanni-logo.svg" />
+<h3>naumanni.comとは?</h3>
+<p>naumanni.comは開発中のWebベースmastodonクライアントで、現在α版です。</p>
+<p>ソースコードは<a target="_blank" href="http://github.com/naumanni/naumanni">github</a>で公開しています。</p>
+<p>要望・不具合報告は<a target="_blank" href="https://github.com/naumanni/naumanni/issues">githubのIssues</a>か、
+  <a target="_blank"href="http://oppai.tokyo/@shn">@shn</a>までMentionください。
+</p>
+`,
+  },
+}
