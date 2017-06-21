@@ -2,9 +2,9 @@ Naumanni standalone docker image
 
 # Requires
 
-* docker >= 17.0.5
+* docker >= 17.05
 
-17.0.3あたりで導入されたmulti-state buildの機能を使っているため、2016-06-20現在、Docker for MacではEdge系統が必要です。（他環境は未確認）
+17.05で導入されたmulti-state buildの機能を使っているため、2016-06-20現在、Docker for MacではEdge系統が必要です。（他環境は未確認）
 
 
 # Setup
